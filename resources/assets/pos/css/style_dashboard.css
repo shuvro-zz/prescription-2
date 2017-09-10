@@ -1,0 +1,127 @@
+@font-face {
+    font-family: Poppins;
+    src: url('../fonts/Poppins-Regular.ttf');
+}
+body{
+		background: #eee;
+}
+.dashboard{
+	font-size: 2em;
+	padding: 5px;
+	text-decoration: none!important;
+	font-family: Poppins;
+}
+.ana{
+	height: 350px;
+	width: 350px;
+	position: relative;
+	padding: 0;
+	margin-top: 15%;
+	margin-right: 0;
+	float:right;
+}
+
+.big-round{
+	position: absolute;
+	left:50%;
+	top: 50%;
+	width: 200px;
+	height: 200px;
+	background:#1ECAB4 url('../images/logo.png') no-repeat center center;
+	border-radius: 100%;
+	border:10px solid white;
+	transform: translate(-50%,-50%);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.menu1,.menu2,.menu3,.menu4, .menu5{
+	text-decoration: none!important;
+	pointer-events: auto;
+	width: 80px;
+	height: 80px;
+	border:5px solid white;
+	border-radius: 50%;
+	color:#fff;
+	text-align: center;
+	line-height: 50px;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	transition: all 0.5s;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.menu1{
+	background-color: #2972EB;
+	left: 50%;
+    	top: -50%;
+}
+.menu2{
+	background-color: #FF8C68;
+	left: -25%;
+    	top: -30px;
+}
+.menu3{
+	background-color:#FFB859; 
+	left: -50%;
+    	top: 50%;
+}
+.menu4{
+	background-color: #59BB71;
+	left: -20%;
+    	top: 115%;
+}
+.menu5{
+	background-color: #008A4D;
+	left: 50%;
+    	top: 145%;
+}
+
+.menu1-label,.menu2-label,.menu3-label,.menu4-label{
+	font-family: Poppins;
+}
+.menu1-label{
+	position:relative;
+	float:right;
+	font-size:17px;
+	right: 65%;
+    	top: -85%;
+}
+.menu2-label{
+	position:relative;
+	float:right;
+	font-size:17px;
+    	right: 155%;
+    	top: -50%;
+}
+.menu3-label{
+	position:relative;
+	float:right;
+	font-size:17px;
+    	right: 185%;
+    	top: 20%;
+}
+.menu4-label{
+	position:relative;
+	font-size:17px;
+	float: right;
+	right: 125%;
+    	top: 85%;
+}
+.menu5-label{
+	position:relative;
+	float: right;
+	font-size:17px;
+	right: 75%;
+	top: 120%;
+}
+
+
+.dash-img{
+	position: absolute;
+	left:10%;
+	top: 25%;
+	width: 300px;
+	height: 300px;
+	border-radius: 100%;
+	border:10px solid white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
